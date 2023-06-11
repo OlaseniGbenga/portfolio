@@ -4,34 +4,29 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full h-screen bg-yellow-400 text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold inline border-b-4 border-blue-600">
             About
           </p>
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        Hello! My name is Gbenga Olaseni and I am a frontend developer based in Lagos, Nigeria. With over 2 years of experience in the industry, I specialize in creating elegant, user-friendly interfaces using the latest frontend development technologies.
+My skills include HTML, CSS, JavaScript, React, Tailwind among others. I have worked on a variety of projects in the past, ranging from small business websites to large-scale e-commerce platforms.
+
+As a developer, I believe that form and function should work together seamlessly. I strive to create interfaces that are not only visually appealing but also easy to use and navigate. 
+
+When I'm not coding, I enjoy planting, reading, and trying out new recipes in the kitchen. I'm also a big fan of live music and love going to concerts whenever I can.
+
+If you're interested in working with me, please feel free to reach out to me through the mail or connect with me on LinkedIn. I look forward to hearing from you!
         </p>
 
         <br />
 
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
-        </p>
+      
       </div>
     </div>
   );

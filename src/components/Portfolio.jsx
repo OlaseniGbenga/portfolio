@@ -1,7 +1,7 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
+import todoApp from "../assets/portfolio/todoApp.png";
+import gameApp from "../assets/portfolio/gameApp.png";
+import teamApp from "../assets/portfolio/teamApp.png";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
@@ -10,15 +10,21 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: todoApp,
+      href:"https://my-schedule-app.vercel.app/",
+      code:"https://github.com/OlaseniGbenga/My-schedule-app/tree/master",
     },
     {
       id: 2,
-      src: reactParallax,
+      src: gameApp,
+      href:"https://react-game-olive.vercel.app/",
+      code:"https://github.com/OlaseniGbenga/React-Game",
     },
     {
       id: 3,
-      src: navbar,
+      src: teamApp,
+      href:"https://team-member-allocation.olasenigbenga.repl.co/",
+      code:"https://github.com/OlaseniGbenga/TEAM-MEMBER-ALLOCATION",
     },
     {
       id: 4,
@@ -26,7 +32,7 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: installNode,
+      src: gameApp,
     },
     {
       id: 6,
@@ -37,7 +43,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-yellow-400 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -48,20 +54,20 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+          {portfolios.map(({ id, src,href, code }) => (
+            <div key={id} className="shadow-md shadow-blue-600 rounded-lg">
               <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
+                <a href={href} target="_blank" rel="noreferrer" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  visit
+                </a>
+                <a href={code} target="_blank" rel="noreferrer" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  code
+                </a>
               </div>
             </div>
           ))}
