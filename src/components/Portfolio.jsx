@@ -2,9 +2,9 @@ import React from "react";
 import todoApp from "../assets/portfolio/todoApp.png";
 import gameApp from "../assets/portfolio/gameApp.png";
 import teamApp from "../assets/portfolio/teamApp.png";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import upStore from "../assets/portfolio/upStore.png";
+import faqApp from "../assets/portfolio/faq.png";
+import rattingApp from "../assets/portfolio/rating.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -28,22 +28,29 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: upStore,
+      href:"https://upstore.vercel.app/",
+code: "https://github.com/OlaseniGbenga/UP-STORE",
     },
     {
       id: 5,
-      src: gameApp,
+      src: faqApp,
+      href:"https://faq-accordion-card-main-kohl-chi.vercel.app/",
+      code:"https://github.com/OlaseniGbenga/faq-accordion-card-main",
     },
     {
       id: 6,
-      src: reactWeather,
+      src: rattingApp,
+      
+      href:"https://interactive-rating-component-main-five.vercel.app/",
+      code:"https://github.com/OlaseniGbenga/interactive-rating-component-main",
     },
   ];
 
   return (
     <div
       name="portfolio"
-      className="bg-yellow-400 w-full text-white md:h-screen"
+      className="bg-yellow-400 w-full text-white md:h-screen sm:pt-0 pt-[400px] md:px-8 px-0 "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -53,7 +60,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4  ">
           {portfolios.map(({ id, src,href, code }) => (
             <div key={id} className="shadow-md shadow-blue-600 rounded-lg">
               <img
