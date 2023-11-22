@@ -16,8 +16,8 @@ const Home = () => {
           </h2>
           <p className="text-white py-4 max-w-md">
             I have 2 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like HTML,CSS, JAVASCRIPT
-            React, Tailwind, GITHUB.
+            Currently, I love to work on web application using technologies like HTML,CSS, Tailwind, JAVASCRIPT
+            React,Next.js, FireBase and  GITHUB.
           </p>
 
           <div>

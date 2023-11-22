@@ -14,15 +14,13 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        Hello! My name is Gbenga Olaseni and I am a frontend developer based in Lagos, Nigeria. With over 2 years of experience in the industry, I specialize in creating elegant, user-friendly interfaces using the latest frontend development technologies.
-My skills include HTML, CSS, JavaScript, React, Tailwind among others. I have worked on a variety of projects in the past, ranging from small business websites to large-scale e-commerce platforms.
+        Hello! I'm Gbenga Olaseni, a frontend developer based in Lagos, Nigeria, specializing in crafting elegant and user-friendly interfaces using the latest frontend technologies. With over 2 years of experience, I've honed my skills in HTML, CSS, JavaScript, React, Tailwind, and more.
 
-As a developer, I believe that form and function should work together seamlessly. I strive to create interfaces that are not only visually appealing but also easy to use and navigate. 
+In addition to my frontend expertise, I'm deeply engaged in researching Web 3 technologies and am an active member of Ethereum Nigeria, a community dedicated to advancing blockchain adoption. My project portfolio spans from small business websites to large-scale e-commerce platforms, where I emphasize the seamless integration of form and function.
 
-When I'm not coding, I enjoy planting, reading, and trying out new recipes in the kitchen. I'm also a big fan of live music and love going to concerts whenever I can.
+I believe in creating interfaces that are visually captivating and intuitive to navigate. Beyond coding, I find joy in gardening, exploring new recipes in the kitchen, and indulging in live music at concerts whenever possible.
 
-If you're interested in working with me, please feel free to reach out to me through the mail or connect with me on LinkedIn. I look forward to hearing from you!
-        </p>
+If you're interested in collaborating or exploring how we can work together, feel free to reach out via email or connect with me on LinkedIn. I'm excited about the possibilities and look forward to connecting with you!</p>
 
         <br />
 

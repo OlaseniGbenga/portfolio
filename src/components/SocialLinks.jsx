@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -43,6 +43,16 @@ const SocialLinks = () => {
       href: "/resume.pdf",
       style: "rounded-br-md",
       download: true,
+    },
+    {
+      id: 5,
+      child: (
+        <>
+          Medium <FaMedium size={30} />
+        </>
+      ),
+      href: "https://medium.com/@gj.olaseni",
+      style: "rounded-tr-md",
     },
   ];
 

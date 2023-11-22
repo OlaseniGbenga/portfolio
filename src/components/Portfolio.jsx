@@ -1,6 +1,6 @@
 import React from "react";
-import todoApp from "../assets/portfolio/todoApp.png";
-import gameApp from "../assets/portfolio/gameApp.png";
+import ethereumNigeri from "../assets/portfolio/ethereumNigeria.png";
+import payMe from "../assets/portfolio/payMe.png";
 import teamApp from "../assets/portfolio/teamApp.png";
 import upStore from "../assets/portfolio/upStore.png";
 import faqApp from "../assets/portfolio/faq.png";
@@ -10,15 +10,15 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: todoApp,
-      href:"https://my-schedule-app.vercel.app/",
-      code:"https://github.com/OlaseniGbenga/My-schedule-app/tree/master",
+      src: ethereumNigeri,
+      href:"https://ethereumnigeria.org/",
+      code:"https://github.com/ETHNIGERIA/eth-nigeria-website",
     },
     {
       id: 2,
-      src: gameApp,
-      href:"https://react-game-olive.vercel.app/",
-      code:"https://github.com/OlaseniGbenga/React-Game",
+      src: payMe,
+      href:"https://wallet-lkpl.vercel.app/",
+      code:"https://github.com/OlaseniGbenga/wallet",
     },
     {
       id: 3,
