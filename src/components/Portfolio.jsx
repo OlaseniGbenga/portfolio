@@ -5,45 +5,27 @@ import teamApp from "../assets/portfolio/teamApp.png";
 import upStore from "../assets/portfolio/upStore.png";
 import faqApp from "../assets/portfolio/faq.png";
 import rattingApp from "../assets/portfolio/rating.png";
+import yala from "../assets/portfolio/useYala.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: ethereumNigeri,
-      href:"https://ethereumnigeria.org/",
-      code:"https://github.com/ETHNIGERIA/eth-nigeria-website",
+      src: yala,
+      href: "https://useyala.com/",
+      code: "https://github.com/OlaseniGbenga/wallet",
     },
     {
       id: 2,
-      src: payMe,
-      href:"https://wallet-lkpl.vercel.app/",
-      code:"https://github.com/OlaseniGbenga/wallet",
+      src: ethereumNigeri,
+      href: "https://ethereumnigeria.org/",
+      code: "https://github.com/ETHNIGERIA/eth-nigeria-website",
     },
     {
       id: 3,
-      src: teamApp,
-      href:"https://team-member-allocation.olasenigbenga.repl.co/",
-      code:"https://github.com/OlaseniGbenga/TEAM-MEMBER-ALLOCATION",
-    },
-    {
-      id: 4,
       src: upStore,
-      href:"https://upstore.vercel.app/",
-code: "https://github.com/OlaseniGbenga/UP-STORE",
-    },
-    {
-      id: 5,
-      src: faqApp,
-      href:"https://faq-accordion-card-main-kohl-chi.vercel.app/",
-      code:"https://github.com/OlaseniGbenga/faq-accordion-card-main",
-    },
-    {
-      id: 6,
-      src: rattingApp,
-      
-      href:"https://interactive-rating-component-main-five.vercel.app/",
-      code:"https://github.com/OlaseniGbenga/interactive-rating-component-main",
+      href: "https://upstore.vercel.app/",
+      code: "https://github.com/OlaseniGbenga/UP-STORE",
     },
   ];
 
@@ -61,7 +43,7 @@ code: "https://github.com/OlaseniGbenga/UP-STORE",
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4  ">
-          {portfolios.map(({ id, src,href, code }) => (
+          {portfolios.map(({ id, src, href, code }) => (
             <div key={id} className="shadow-md shadow-blue-600 rounded-lg">
               <img
                 src={src}
@@ -69,12 +51,22 @@ code: "https://github.com/OlaseniGbenga/UP-STORE",
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <a href={href} target="_blank" rel="noreferrer" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href={href}
+                  target="_blank"
+                  rel="noreferrer"
+                  className=" px-6 py-3 m-4 duration-200 hover:scale-105 self-center"
+                >
                   visit
                 </a>
-                <a href={code} target="_blank" rel="noreferrer" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                {/* <a
+                  href={code}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   code
-                </a>
+                </a> */}
               </div>
             </div>
           ))}

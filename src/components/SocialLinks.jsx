@@ -41,7 +41,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "/resume.pdf",
-      style: "rounded-br-md",
+  
       download: true,
     },
     {
@@ -52,7 +52,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://medium.com/@gj.olaseni",
-      style: "rounded-tr-md",
+      style: "rounded-br-md",
     },
   ];
 

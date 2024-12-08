@@ -13,18 +13,23 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-        Hello! I'm Gbenga Olaseni, a frontend developer based in Lagos, Nigeria, specializing in crafting elegant and user-friendly interfaces using the latest frontend technologies. With over 2 years of experience, I've honed my skills in HTML, CSS, JavaScript, React, Tailwind, and more.
-
-In addition to my frontend expertise, I'm deeply engaged in researching Web 3 technologies and am an active member of Ethereum Nigeria, a community dedicated to advancing blockchain adoption. My project portfolio spans from small business websites to large-scale e-commerce platforms, where I emphasize the seamless integration of form and function.
-
-I believe in creating interfaces that are visually captivating and intuitive to navigate. Beyond coding, I find joy in gardening, exploring new recipes in the kitchen, and indulging in live music at concerts whenever possible.
-
-If you're interested in collaborating or exploring how we can work together, feel free to reach out via email or connect with me on LinkedIn. I'm excited about the possibilities and look forward to connecting with you!</p>
+        <p className="text-xl">
+          A developer with two years of experience in building user interfaces
+          and a strong foundation in both Linux and Windows operating systems.
+          Proficient in HTML, CSS, JavaScript, React, and Tailwind, I am skilled
+          in creating responsive, intuitive, and visually appealing web
+          applications. I have a basic understanding of SQL and am comfortable
+          writing simple queries to interact with databases. In my role at Yala,
+          I significantly contributed to improving the stability and performance
+          of the web platform by developing reusable and maintainable code. I
+          worked closely with senior developers and cross-functional teams to
+          ensure the quality and scalability of the system. Additionally, my
+          volunteer work with Ethereum Nigeria allowed me to design and
+          implement user-friendly interfaces for blockchain education platforms,
+          focusing on accessibility and user engagement.
+        </p>
 
         <br />
-
-      
       </div>
     </div>
   );
