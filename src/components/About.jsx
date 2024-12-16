@@ -1,10 +1,10 @@
 import React from "react";
-
+//w-full h-screen bg-yellow-400 text-white md:px-8 px-0 sm:pt-0 pt-[400px]
 const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-yellow-400 text-white md:px-8 px-0 sm:pt-0 pt-[400px]"
+      className="w-full  bg-yellow-400 text-white md:px-8 px-0 sm:pt-0 "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

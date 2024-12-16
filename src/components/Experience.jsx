@@ -59,11 +59,11 @@ const Experience = () => {
       style: "shadow-gray-400",
     },
   ];
-
+//bg-yellow-400 w-full text-white   py-[50px] md:px-8 px-0
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen md:px-8 px-0"
+      className="bg-gradient-to-b from-gray-800 to-black w-full py-[50px] md:px-8 px-0"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>

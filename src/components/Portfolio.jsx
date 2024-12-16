@@ -28,11 +28,11 @@ const Portfolio = () => {
       code: "https://github.com/OlaseniGbenga/UP-STORE",
     },
   ];
-
+//bg-yellow-400 w-full text-white md:h-screen sm:pt-0 pt-[400px] md:px-8 px-0
   return (
     <div
       name="portfolio"
-      className="bg-yellow-400 w-full text-white md:h-screen sm:pt-0 pt-[400px] md:px-8 px-0 "
+      className="bg-yellow-400 w-full text-white   py-[50px] md:px-8 px-0 "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

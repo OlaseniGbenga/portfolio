@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-yellow-400 md:px-8 px-0"
+      className="pt-32  md:h-auto w-full bg-yellow-400 md:px-8 px-0"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
@@ -15,9 +15,7 @@ const Home = () => {
             I'm a Frontend Developer
           </h2>
           <p className="text-white py-4 max-w-md">
-            I have 2 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like HTML,CSS, Tailwind, JAVASCRIPT
-            React,Next.js, FireBase and  GITHUB.
+          Unlock the power of exceptional web applications with my 2 years of hands-on experience in software design and development. I specialize in creating high-performance, responsive solutions using the latest technologies like HTML, CSS, Tailwind, JavaScript, React, Next.js, Firebase, and GitHub. Whether you're looking to bring your ideas to life or elevate your digital presence, I have the expertise to deliver seamless, cutting-edge results that drive success. Let's build something amazing together!
           </p>
 
           <div>
