@@ -1,11 +1,15 @@
 import React from "react";
 import ethereumNigeri from "../assets/portfolio/ethereumNigeria.png";
-import payMe from "../assets/portfolio/payMe.png";
-import teamApp from "../assets/portfolio/teamApp.png";
+
 import upStore from "../assets/portfolio/upStore.png";
-import faqApp from "../assets/portfolio/faq.png";
-import rattingApp from "../assets/portfolio/rating.png";
+
 import yala from "../assets/portfolio/useYala.jpg";
+
+import irede from "../assets/portfolio/irede.png";
+
+import foodwagon from "../assets/portfolio/foodwagon.png";
+import future from "../assets/portfolio/future.png";
+import spa from "../assets/portfolio/spa.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -16,16 +20,35 @@ const Portfolio = () => {
       code: "https://github.com/OlaseniGbenga/wallet",
     },
     {
+      id: 6,
+      src: future,
+      href: "https://minimal-portfolio-mocha.vercel.app/",
+      code: "https://github.com/OlaseniGbenga/UP-STORE",
+    },
+
+    {
+      id: 3,
+      src: irede,
+      href: "https://irede.vercel.app/",
+      code: "",
+    },
+    {
+      id: 4,
+      src: foodwagon,
+      href: "foodwagonlandingpage.vercel.app",
+      code: "",
+    },
+    {
+      id: 5,
+      src: spa,
+      href: "https://futuretechlandingpage.vercel.app/",
+      code: "https://github.com/OlaseniGbenga/UP-STORE",
+    },
+    {
       id: 2,
       src: ethereumNigeri,
       href: "https://ethereumnigeria.org/",
       code: "https://github.com/ETHNIGERIA/eth-nigeria-website",
-    },
-    {
-      id: 3,
-      src: upStore,
-      href: "https://upstore.vercel.app/",
-      code: "https://github.com/OlaseniGbenga/UP-STORE",
     },
   ];
 //bg-yellow-400 w-full text-white md:h-screen sm:pt-0 pt-[400px] md:px-8 px-0
