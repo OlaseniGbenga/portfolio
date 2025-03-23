@@ -15,7 +15,14 @@ const Home = () => {
             I'm a Frontend Developer
           </h2>
           <p className="text-white py-4 max-w-md">
-          Unlock the power of exceptional web applications with my 2 years of hands-on experience in software design and development. I specialize in creating high-performance, responsive solutions using the latest technologies like HTML, CSS, Tailwind, JavaScript, React, Next.js, Firebase, and GitHub. Whether you're looking to bring your ideas to life or elevate your digital presence, I have the expertise to deliver seamless, cutting-edge results that drive success. Let's build something amazing together!
+            Unlock the power of exceptional web applications with my 2 years of
+            hands-on experience in software design and development. I specialize
+            in creating high-performance, responsive solutions using the latest
+            technologies like HTML, CSS, Tailwind, JavaScript, React, Next.js,
+            Firebase, and GitHub. Whether you're looking to bring your ideas to
+            life or elevate your digital presence, I have the expertise to
+            deliver seamless, cutting-edge results that drive success. Let's
+            build something amazing together!
           </p>
 
           <div>

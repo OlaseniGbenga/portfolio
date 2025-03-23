@@ -21,9 +21,9 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: future,
+      src: spa,
       href: "https://minimal-portfolio-mocha.vercel.app/",
-      code: "https://github.com/OlaseniGbenga/UP-STORE",
+      code: "",
     },
 
     {
@@ -40,7 +40,7 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: spa,
+      src: future,
       href: "https://futuretechlandingpage.vercel.app/",
       code: "https://github.com/OlaseniGbenga/UP-STORE",
     },
